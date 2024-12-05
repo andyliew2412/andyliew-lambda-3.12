@@ -18,3 +18,5 @@
 | CI-Terraform-Plan.yml	| On Pull Request	| Terraform command that previews the changes Terraform will make to your infrastructure if you apply a particular configuration. |
 | CD-Terraform-Apply.yml	| On Push	| Terraform command that executes the changes required to reach the desired state defined in your configuration files. |
 | Terraform-Destroy.yml	| On Workflow Dispatch	| To clean up terraform resources created. |
+
+6) Verify the Lambda function at AWS is created 
