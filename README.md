@@ -12,6 +12,7 @@
 5) Create below workflows (yaml files) for the github actions.
 
 | Workflows	| Execute | Type	| Description |
+| --------- | ------- | ----- | ------------|
 | CI-Checkov.yml	| On Pull Request	| scan infrastructure-as-code (IaC) files for potential security issues |
 | CI-Terraform-Check.yml	| On Pull Request	| terraform fmt : Formats your Terraform configuration files. 
 terraform validate : Validates the syntax and logic of Terraform configuration files. 
