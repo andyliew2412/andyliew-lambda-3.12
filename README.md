@@ -14,9 +14,7 @@
 | Workflows	| Execute Type	| Description |
 | --------- | ------------- | ------------|
 | CI-Checkov.yml	| On Pull Request	| scan infrastructure-as-code (IaC) files for potential security issues |
-| CI-Terraform-Check.yml	| On Pull Request	| terraform fmt : Formats your Terraform configuration files. 
-terraform validate : Validates the syntax and logic of Terraform configuration files. 
-TFLint : Lints (analyzes) Terraform files to catch potential. |
+| CI-Terraform-Check.yml	| On Pull Request	| terraform fmt : Formats your Terraform configuration files. terraform validate : Validates the syntax and logic of Terraform configuration files. TFLint : Lints (analyzes) Terraform files to catch potential. |
 | CI-Terraform-Plan.yml	| On Pull Request	| Terraform command that previews the changes Terraform will make to your infrastructure if you apply a particular configuration. |
 | CD-Terraform-Apply.yml	| On Push	| Terraform command that executes the changes required to reach the desired state defined in your configuration files. |
 | Terraform-Destroy.yml	| On Workflow Dispatch	| To clean up terraform resources created. |
